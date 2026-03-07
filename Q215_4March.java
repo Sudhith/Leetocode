@@ -1,9 +1,11 @@
-class Q215_4March
+import java.util.Arrays;
+
+public class Q215_4March
 {
-    public int findKthLargest(int[] nums, int k) 
+    public static int findKthLargest(int[] nums, int k) 
     {
         Arrays.sort(nums);
-        return nums[nums.length-k];
+        return nums[nums.length - k];
     }
         
 }
