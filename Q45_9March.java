@@ -1,6 +1,5 @@
 public class Q45_9March 
-{
-    class Solution 
+
 {
     public int jump(int[] nums) 
     {
